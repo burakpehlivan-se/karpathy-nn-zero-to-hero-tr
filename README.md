@@ -108,7 +108,3 @@ Eğer notlarda bir hata fark ederseniz veya Türkçe çevirilerde düzeltme yapm
 ---
 
 *Hazırlayan: Burak Pehlivan*
-
-```
-
-```
