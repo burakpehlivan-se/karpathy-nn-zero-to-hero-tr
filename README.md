@@ -43,8 +43,8 @@ Notları kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları 
 
 1. **Repoyu Klonlayın:**
 ```bash
-git clone [https://github.com/KULLANICI_ADIN/REPO_ADIN.git](https://github.com/KULLANICI_ADIN/REPO_ADIN.git)
-cd REPO_ADIN
+git clone https://github.com/burakpehlivan-se/karpathy-nn-zero-to-hero-tr
+cd karpathy-nn-zero-to-hero-tr
 
 ```
 
