@@ -2,7 +2,7 @@
 
 Bu depo, Andrej Karpathy'nin efsanevi **"Neural Networks: Zero to Hero"** video serisi için hazırladığım detaylı Türkçe notları, kod açıklamalarını ve yeniden oluşturulmuş implementasyonları içerir.
 
-Amacım, "Micrograd" ile başlayıp "GPT-2" ve "Reasoning Models"e kadar uzanan bu yolculuğu, Türkçe kaynak arayanlar için anlaşılır, kapsamlı ve eğitici bir rehber haline getirmektir.
+Amacım, "Micrograd" ile başlayıp "GPT-2" ve "Tokenizer" e kadar uzanan bu yolculuğu, Türkçe kaynak arayanlar için anlaşılır, kapsamlı ve eğitici bir rehber haline getirmektir.
 
 ## 🚀 İçerik ve İlerleme Durumu
 
