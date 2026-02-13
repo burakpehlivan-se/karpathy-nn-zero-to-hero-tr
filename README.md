@@ -10,16 +10,16 @@ Bu proje, orijinal oynatma listesindeki sırayı takip etmektedir.
 
 | Bölüm | Konu | Orijinal Ders | Türkçe Notlar | Durum |
 | :--- | :--- | :---: | :---: | :---: |
-| **01** | **Micrograd:** Autograd Motoru ve Backpropagation | [Video](https://youtu.be/VMj-3S1tku0?si=5rrYqRZgOwv05eNt) | [İncele](./01_micrograd/) | ✅ Tamamlandı |
-| **02** | **Makemore 1:** Bigram (İkili) Dil Modelleri | [Video](https://youtu.be/PaCmpygFfXo?si=u4T45UwGYyv1POIo) | - | ⏳ Bekleniyor |
-| **03** | **Makemore 2:** MLP (Multi-Layer Perceptron) | [Video](https://youtu.be/TCH_1BHY58I?si=7rmvaSXQgIg3rBUj) | - | ⏳ Bekleniyor |
-| **04** | **Makemore 3:** Batch Normalization & Internals | [Video](https://youtu.be/P6sfmUTpUmc?si=4e1Qp0iHsl90Mhay) | - | ⏳ Bekleniyor |
-| **05** | **Makemore 4:** Backpropagation Ninja (Manuel Türev) | [Video](https://youtu.be/q8SA3rM6ckI?si=baT6jXkJpbyFTmYf) | - | ⏳ Bekleniyor |
-| **06** | **Makemore 5:** WaveNet Mimarisi & CNN'ler | [Video](https://youtu.be/t3YJ5hKiMQ0?si=2mO9hxINaK3slCbG) | - | ⏳ Bekleniyor |
-| **07** | **GPT:** Sıfırdan GPT Oluşturmak ve Transformer Mimarisi (Attention is all you need) | [Video](https://youtu.be/kCc8FmEb1nY?si=4uU7c16tJMximB_8) | - | ⏳ Bekleniyor |
-| **08** | **GPT Eğitim Aşamaları:** Büyük Dil Modellerine Giriş (Teori) | [video](https://youtu.be/bZQun8Y4L2A?si=U5FYZfC43uwAESbG) | - | ⏳ Bekleniyor |
-| **09** | **Tokenizer:** GPT Tokenizer (Kodlayıcı) Oluşturma | [Video](https://youtu.be/bZQun8Y4L2A?si=jf-k9GKnhfmfDaMM) | - | ⏳ Bekleniyor |
-| **10** | **GPT-2:** GPT-2 (124M) Modelini Sıfırdan Eğitmek | [Video](https://youtu.be/l8pRSuU81PU) | - | ⏳ Bekleniyor |
+| **01** | **Micrograd:** Autograd Motoru ve Backpropagation | [Video](https://youtu.be/VMj-3S1tku0) | [İncele](./01_micrograd/) | ✅ Tamamlandı |
+| **02** | **Makemore 1:** Bigram (İkili) Dil Modelleri | [Video](https://youtu.be/PaCmpygFfXo) | [İncele](./02_makemore_bigram/) | ⏳ Bekleniyor |
+| **03** | **Makemore 2:** MLP (Multi-Layer Perceptron) | [Video](https://youtu.be/TCH_1BHY58I) | [İncele](./03_makemore_mlp/) | ⏳ Bekleniyor |
+| **04** | **Makemore 3:** Batch Normalization & Internals | [Video](https://youtu.be/P6sfmUTpUmc) | [İncele](./04_makemore_batchnorm/) | ⏳ Bekleniyor |
+| **05** | **Makemore 4:** Backpropagation Ninja (Manuel Türev) | [Video](https://youtu.be/q8SA3rM6ckI) | [İncele](./05_makemore_backprop/) | ⏳ Bekleniyor |
+| **06** | **Makemore 5:** WaveNet Mimarisi & CNN'ler | [Video](https://youtu.be/t3YJ5hKiMQ0) | [İncele](./06_makemore_wavenet/) | ⏳ Bekleniyor |
+| **07** | **GPT:** Transformer Mimarisi (Attention is all you need) | [Video](https://youtu.be/kCc8FmEb1nY) | [İncele](./07_gpt_transformer/) | ⏳ Bekleniyor |
+| **08** | **Intro to LLMs:** LLM Eğitim Aşamaları (Teori) | [Video](https://youtu.be/bZQun8Y4L2A) | [İncele](./08_intro_to_llms/) | ⏳ Bekleniyor |
+| **09** | **Tokenizer:** GPT Tokenizer (Kodlayıcı) Oluşturma | [Video](https://youtu.be/zduSFxRajkE) | [İncele](./09_gpt_tokenizer/) | ⏳ Bekleniyor |
+| **10** | **GPT-2:** GPT-2 (124M) Modelini Sıfırdan Eğitmek | [Video](https://youtu.be/l8pRSuU81PU) | [İncele](./10_gpt2_reproduction/) | ⏳ Bekleniyor ||
 
 ---
 
@@ -29,11 +29,36 @@ Her bölüm, kendi klasörü altında organize edilmiştir. Bu klasörlerde Jupy
 
 ```text
 karpathy-nn-zero-to-hero-tr/
-├── 01_micrograd/          # Geriye yayılım ve türev motoru
-├── 02_makemore_bigram/    # İstatistiksel dil modellemesi
-├── ...
-├── 09_gpt2_reproduction/  # Büyük ölçekli model eğitimi
-└── requirements.txt       # Gerekli kütüphaneler
+│
+├── 01_micrograd/
+│   └── micrograd_autograd.ipynb
+│
+├── 02_makemore_bigram/
+│   └── makemore_bigram.ipynb
+│
+├── 03_makemore_mlp/
+│   └── makemore_mlp.ipynb
+│
+├── 04_makemore_batchnorm/
+│   └── makemore_batchnorm.ipynb
+│
+├── 05_makemore_backprop/
+│   └── makemore_backprop_ninja.ipynb
+│
+├── 06_makemore_wavenet/
+│   └── makemore_wavenet_cnn.ipynb
+│
+├── 07_gpt_transformer/
+│   └── gpt_transformer.ipynb
+│
+├── 08_intro_to_llms/
+│   └── llm_training_theory.md
+│
+├── 09_gpt_tokenizer/
+│   └── gpt_tokenizer.ipynb
+│
+└── 10_gpt2_reproduction/
+    └── gpt2_training.ipynb
 
 ```
 
