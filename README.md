@@ -107,7 +107,7 @@ Eğer notlarda bir hata fark ederseniz veya Türkçe çevirilerde düzeltme yapm
 
 ---
 
-*Hazırlayan: [Senin Adın]*
+*Hazırlayan: Burak Pehlivan*
 
 ```
 
